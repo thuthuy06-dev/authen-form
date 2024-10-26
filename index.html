@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="./style.css"> 
+        <link rel="stylesheet" href="./responsive.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<title>reCAPTCHA demo: Explicit render after an onload callback</title>
+    <script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI'
+        });
+      };
+    </script>
+
+    </head>
+    <body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+            <a href="../index.html" class="go-back"><img class ="header__navbar-logoimg header__navbar-logoimg-right"src="../assets/img/Võ Nguyễn Bảo Long HTML & CSS Certificate.png" alt=""></a>
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" required placeholder="Username" />
+			<input type="email" required placeholder="Email" />
+			<input type="password" required placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+            <a href="../index.html" class="go-back"><img class ="header__navbar-logoimg"src="../assets/img/Võ Nguyễn Bảo Long HTML & CSS Certificate.png" alt=""></a>
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="email" required placeholder="Email or Username" />
+			<input type="password" required placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<!-- <form action="?" method="POST">
+				<div id="html_element"></div>
+			  </form>
+			  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+				  async defer>
+			  </script> -->
+			<button class="btn-sign-in">
+                <a href="" class="sign-in-btn">Sign In</a>
+            </button>
+			
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Get Start!</h1>
+				<p>Welcome, please enter your personal details and start Shop Coin Usa </p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Welcome</h1>
+				<p>If you don't have an account, please sign up to start</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+        <script src="./jvv.js">
+
+        </script>
+
+    </body>
+</html>
