@@ -55,6 +55,7 @@ img.header__navbar-logoimg.header__navbar-logoimg-right {
 button {
 	border-radius: 20px;
 	border: 1px solid #2b4bff;
+	background-color: #2b4bff;
 	color: #FFFFFF !important;
 	font-size: 12px;
 	font-weight: bold;
